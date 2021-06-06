@@ -1,0 +1,121 @@
+<!DOCTYPE html>   
+<html>
+<head>
+<meta charset = "utf-8"> 
+<title> Registration form</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("logo3.jpg");
+    background-color: #cccccc;
+    height: 620px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div.main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.register {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid black;
+    
+}
+form#register {
+    margin: 40px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 3px ;
+    outline: 0;
+    padding: 7px;
+    color: black;
+}
+input#regsiter {
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    color: black ;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.btn {
+    width: 100%;
+    background: none;
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+label,span,h2 {
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+</style>
+<body>
+<div class="main">
+    <div class="register">
+        <h2> Register here</h2>
+        <form id = "register" method="POST">
+            <label> First Name : </label>
+            <br>
+            <input type="text" name="fname" id="name" placeholder="Enter your first name" required>
+            <br><br>
+            <label> Last Name : </label>
+            <br>
+            <input type="text" name="lname" id="name" placeholder="Enter your last name" required>
+            <br><br>
+            <label> Username : </label>
+            <br>
+            <input type="text" name="username" id="name" placeholder="Enter your Username" required>
+            <br><br>
+            <label> Email : </label>
+            <br>
+            <input type="email" name="mail" id="name" placeholder="Enter your Valid Eamil" required>
+            <br><br>
+            <label> Password : </label>
+            <br>
+            <input type="text" name="password" id="name" placeholder="Enter your password" required>
+            <br><br>
+            <label>Gender : </label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="male" >
+            &nbsp;
+            <span id="male">Male</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="female" >
+            &nbsp;
+            <span id="female">Female</span>
+            <br><br>
+            <input class = "btn" type="button" onclick="location.href='login.html'" name="" value="Register">
+        </form>
+    </div>
+</div>
+</body>
+</html>

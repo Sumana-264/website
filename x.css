@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* header{
+    background-color: white;
+    background-image: linear-gradient(315deg, #21d190 0%, #d65bca 74%); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} */
+body{
+    background-image: url("logo3.jpg");
+    background-color: #cccccc;
+    height: 620px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white;
+    border-radius: 8px;
+    float: right;
+    padding: 10px 24px;
+    margin: 2em auto;
+    margin-left: 20px;
+}
+.button2 {
+    background-color: white;
+    border-radius: 8px;
+    float: right;
+    padding: 10px 24px;
+    margin: 2em auto;
+    margin-left: 20px;
+}
+.button3 {
+    background-color: white;
+    border-radius: 8px;
+    float: right;
+    padding: 10px 24px;
+    margin: 2em auto;
+    margin-left: 20px;
+}
+.button4 {
+    background-color: white;
+    border-radius: 8px;
+    float: right;
+    padding: 10px 24px;
+    margin: 2em auto;
+    margin-left: 20px;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+    background: transparent;
+    scroll-snap-align: start;
+}
